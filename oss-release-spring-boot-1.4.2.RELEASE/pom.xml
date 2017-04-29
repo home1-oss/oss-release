@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.yirendai.infra</groupId>
+        <groupId>cn.home1</groupId>
         <artifactId>oss-release</artifactId>
-        <version>1.0.6.OSS-SNAPSHOT</version>
+        <version>1.0.6.OSS</version>
     </parent>
     <artifactId>oss-release-spring-boot-1.4.2.RELEASE</artifactId>
     <name>oss-release-spring-boot-1.4.2.RELEASE</name>
@@ -29,42 +29,42 @@
                 <artifactId>maven-clean-plugin</artifactId>
                 <dependencies>
                     <dependency>
-                        <groupId>com.yirendai.infra</groupId>
+                        <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-adminclient-spring-boot-1.4.2.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
                     <dependency>
-                        <groupId>com.yirendai.infra</groupId>
+                        <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-common-spring-boot-1.4.2.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
                     <dependency>
-                        <groupId>com.yirendai.infra</groupId>
+                        <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-errorhandle-spring-boot-1.4.2.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
                     <dependency>
-                        <groupId>com.yirendai.infra</groupId>
+                        <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-log4j2-spring-boot-1.4.2.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
                     <dependency>
-                        <groupId>com.yirendai.infra</groupId>
+                        <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-security-spring-boot-1.4.2.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
                     <dependency>
-                        <groupId>com.yirendai.infra</groupId>
+                        <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-swagger-spring-boot-1.4.2.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
                     <dependency>
-                        <groupId>com.yirendai.infra</groupId>
+                        <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-test-spring-boot-1.4.2.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
                     <dependency>
-                        <groupId>com.yirendai.infra</groupId>
+                        <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-webmvc-spring-boot-1.4.2.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
@@ -76,7 +76,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.yirendai.infra</groupId>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-common-dependencies-spring-boot-1.4.2.RELEASE</artifactId>
                 <version>${oss-common-dependencies.version}</version>
                 <type>pom</type>
@@ -84,43 +84,43 @@
             </dependency>
 
             <dependency>
-                <groupId>com.yirendai.infra</groupId>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-adminclient-spring-boot-1.4.2.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yirendai.infra</groupId>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-common-spring-boot-1.4.2.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yirendai.infra</groupId>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-errorhandle-spring-boot-1.4.2.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yirendai.infra</groupId>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-log4j2-spring-boot-1.4.2.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yirendai.infra</groupId>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-security-spring-boot-1.4.2.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yirendai.infra</groupId>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-swagger-spring-boot-1.4.2.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.yirendai.infra</groupId>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-test-spring-boot-1.4.2.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>com.yirendai.infra</groupId>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-webmvc-spring-boot-1.4.2.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
             </dependency>
