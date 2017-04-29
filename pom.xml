@@ -5,19 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.yirendai.infra</groupId>
+        <groupId>cn.home1</groupId>
         <artifactId>oss-build</artifactId>
-        <version>1.0.8.OSS-SNAPSHOT</version>
+        <version>1.0.9.OSS</version>
     </parent>
 
     <artifactId>oss-release</artifactId>
+    <description>Open Source Stack Release Train - dependency management across a wide range of Open Source Stack projects.</description>
     <name>oss-release</name>
     <packaging>pom</packaging>
+    <url>https://github.com/home1-oss/oss-release</url>
     <version>1.0.6.OSS-SNAPSHOT</version>
 
     <properties>
-        <oss-common-dependencies.version>1.0.8.OSS-SNAPSHOT</oss-common-dependencies.version>
-        <oss-lib.version>1.0.7.OSS-SNAPSHOT</oss-lib.version>
+        <oss-common-dependencies.version>1.0.8.OSS</oss-common-dependencies.version>
+        <oss-lib.version>1.0.7.OSS</oss-lib.version>
     </properties>
 
     <repositories>

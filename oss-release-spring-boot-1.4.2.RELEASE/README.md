@@ -8,7 +8,7 @@
 你的项目可以使用oss-release作为parent, 这样间接地以oss-build为ancestor.
 
     <parent>
-        <groupId>com.yirendai.oss</groupId>
+        <groupId>cn.home1</groupId>
         <artifactId>oss-release-spring-boot-1.4.2.RELEASE</artifactId>
         <version>${oss-release.version}</version>
     </parent>
@@ -17,14 +17,14 @@
 
     <!-- 以oss-build为parent是可选的 -->
     <parent>
-        <groupId>com.yirendai.oss</groupId>
+        <groupId>cn.home1</groupId>
         <artifactId>oss-build</artifactId>
         <version>${oss-build.version}</version>
     </parent>
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.yirendai.oss</groupId>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-release-spring-boot-1.4.2.RELEASE</artifactId>
                 <version>${oss-release.version}</version>
                 <type>pom</type>
