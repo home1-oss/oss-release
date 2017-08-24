@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.home1</groupId>
         <artifactId>oss-release</artifactId>
-        <version>1.0.6.OSS</version>
+        <version>1.0.7.OSS</version>
     </parent>
     <artifactId>oss-release-spring-boot-1.4.1.RELEASE</artifactId>
     <name>oss-release-spring-boot-1.4.1.RELEASE</name>
@@ -30,32 +30,7 @@
                 <dependencies>
                     <dependency>
                         <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-adminclient-spring-boot-1.4.1.RELEASE</artifactId>
-                        <version>${oss-lib.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-common-spring-boot-1.4.1.RELEASE</artifactId>
-                        <version>${oss-lib.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-errorhandle-spring-boot-1.4.1.RELEASE</artifactId>
-                        <version>${oss-lib.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-log4j2-spring-boot-1.4.1.RELEASE</artifactId>
-                        <version>${oss-lib.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-security-spring-boot-1.4.1.RELEASE</artifactId>
-                        <version>${oss-lib.version}</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-swagger-spring-boot-1.4.1.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
                     <dependency>
@@ -65,8 +40,33 @@
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
+                        <artifactId>oss-lib-adminclient-spring-boot-1.4.1.RELEASE</artifactId>
+                        <version>1.0.8.OSS</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>cn.home1</groupId>
+                        <artifactId>oss-lib-log4j2-spring-boot-1.4.1.RELEASE</artifactId>
+                        <version>1.0.8.OSS</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>cn.home1</groupId>
+                        <artifactId>oss-lib-swagger-spring-boot-1.4.1.RELEASE</artifactId>
+                        <version>1.0.8.OSS</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-webmvc-spring-boot-1.4.1.RELEASE</artifactId>
-                        <version>${oss-lib.version}</version>
+                        <version>1.0.8.OSS</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>cn.home1</groupId>
+                        <artifactId>oss-lib-errorhandle-spring-boot-1.4.1.RELEASE</artifactId>
+                        <version>1.0.8.OSS</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>cn.home1</groupId>
+                        <artifactId>oss-lib-security-spring-boot-1.4.1.RELEASE</artifactId>
+                        <version>1.0.8.OSS</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -85,32 +85,7 @@
 
             <dependency>
                 <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-adminclient-spring-boot-1.4.1.RELEASE</artifactId>
-                <version>${oss-lib.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-common-spring-boot-1.4.1.RELEASE</artifactId>
-                <version>${oss-lib.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-errorhandle-spring-boot-1.4.1.RELEASE</artifactId>
-                <version>${oss-lib.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-log4j2-spring-boot-1.4.1.RELEASE</artifactId>
-                <version>${oss-lib.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-security-spring-boot-1.4.1.RELEASE</artifactId>
-                <version>${oss-lib.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-swagger-spring-boot-1.4.1.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
             </dependency>
             <dependency>
@@ -121,8 +96,33 @@
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
+                <artifactId>oss-lib-adminclient-spring-boot-1.4.1.RELEASE</artifactId>
+                <version>1.0.8.OSS</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.home1</groupId>
+                <artifactId>oss-lib-log4j2-spring-boot-1.4.1.RELEASE</artifactId>
+                <version>1.0.8.OSS</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.home1</groupId>
+                <artifactId>oss-lib-swagger-spring-boot-1.4.1.RELEASE</artifactId>
+                <version>1.0.8.OSS</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-webmvc-spring-boot-1.4.1.RELEASE</artifactId>
-                <version>${oss-lib.version}</version>
+                <version>1.0.8.OSS</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.home1</groupId>
+                <artifactId>oss-lib-errorhandle-spring-boot-1.4.1.RELEASE</artifactId>
+                <version>1.0.8.OSS</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.home1</groupId>
+                <artifactId>oss-lib-security-spring-boot-1.4.1.RELEASE</artifactId>
+                <version>1.0.8.OSS</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
