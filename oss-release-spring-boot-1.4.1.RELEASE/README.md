@@ -1,11 +1,11 @@
 
 # oss-release-spring-boot-1.4.1.RELEASE
 
-使用spring-boot-1.4.1.RELEASE的用户需要使用oss-release-spring-boot-1.4.1.RELEASE引入oss-common-dependencies-spring-boot-1.4.1.RELEASE和针对spring-boot-1.4.1测试并构建的oss-lib.
+Users of `spring-boot-1.4.1.RELEASE` needs to use `oss-release-spring-boot-1.4.1.RELEASE` 
+and home1-oss libs that built and tested against `spring-boot-1.4.1.RELEASE`
 
-## 使用方法
 
-你的项目可以使用oss-release作为parent, 这样间接地以oss-build为ancestor.
+Your project can use oss-release as parent and implicitly use oss-build as ancestor.
 
     <parent>
         <groupId>cn.home1</groupId>
@@ -13,9 +13,9 @@
         <version>${oss-release.version}</version>
     </parent>
 
-或者在dependencyManagement中import它.
+or import in dependencyManagement.
 
-    <!-- 以oss-build为parent是可选的 -->
+    <!-- Use oss-build as parent is optional -->
     <parent>
         <groupId>cn.home1</groupId>
         <artifactId>oss-build</artifactId>
