@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.home1</groupId>
         <artifactId>oss-release</artifactId>
-        <version>1.0.8.OSS-SNAPSHOT</version>
+        <version>1.0.10.OSS-SNAPSHOT</version>
     </parent>
     <artifactId>oss-release-spring-boot-1.4.2.RELEASE</artifactId>
     <name>oss-release-spring-boot-1.4.2.RELEASE</name>
@@ -41,32 +41,32 @@
                     <dependency>
                         <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-adminclient-spring-boot-1.4.2.RELEASE</artifactId>
-                        <version>1.0.8.OSS</version>
+                        <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-log4j2-spring-boot-1.4.2.RELEASE</artifactId>
-                        <version>1.0.8.OSS</version>
+                        <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-swagger-spring-boot-1.4.2.RELEASE</artifactId>
-                        <version>1.0.8.OSS</version>
+                        <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-webmvc-spring-boot-1.4.2.RELEASE</artifactId>
-                        <version>1.0.8.OSS</version>
+                        <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-errorhandle-spring-boot-1.4.2.RELEASE</artifactId>
-                        <version>1.0.8.OSS</version>
+                        <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
                         <artifactId>oss-lib-security-spring-boot-1.4.2.RELEASE</artifactId>
-                        <version>1.0.8.OSS</version>
+                        <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -97,32 +97,32 @@
             <dependency>
                 <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-adminclient-spring-boot-1.4.2.RELEASE</artifactId>
-                <version>1.0.8.OSS</version>
+                <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-log4j2-spring-boot-1.4.2.RELEASE</artifactId>
-                <version>1.0.8.OSS</version>
+                <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-swagger-spring-boot-1.4.2.RELEASE</artifactId>
-                <version>1.0.8.OSS</version>
+                <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-webmvc-spring-boot-1.4.2.RELEASE</artifactId>
-                <version>1.0.8.OSS</version>
+                <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-errorhandle-spring-boot-1.4.2.RELEASE</artifactId>
-                <version>1.0.8.OSS</version>
+                <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-security-spring-boot-1.4.2.RELEASE</artifactId>
-                <version>1.0.8.OSS</version>
+                <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

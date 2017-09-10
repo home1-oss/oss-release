@@ -9,8 +9,8 @@
         <artifactId>oss-release</artifactId>
         <version>1.0.10.OSS-SNAPSHOT</version>
     </parent>
-    <artifactId>oss-release-spring-boot-1.4.1.RELEASE</artifactId>
-    <name>oss-release-spring-boot-1.4.1.RELEASE</name>
+    <artifactId>oss-release-spring-boot-1.5.4.RELEASE</artifactId>
+    <name>oss-release-spring-boot-1.5.4.RELEASE</name>
     <packaging>pom</packaging>
 
     <build>
@@ -30,42 +30,42 @@
                 <dependencies>
                     <dependency>
                         <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-common-spring-boot-1.4.1.RELEASE</artifactId>
+                        <artifactId>oss-lib-common-spring-boot-1.5.4.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-test-spring-boot-1.4.1.RELEASE</artifactId>
+                        <artifactId>oss-lib-test-spring-boot-1.5.4.RELEASE</artifactId>
                         <version>${oss-lib.version}</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-adminclient-spring-boot-1.4.1.RELEASE</artifactId>
+                        <artifactId>oss-lib-adminclient-spring-boot-1.5.4.RELEASE</artifactId>
                         <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-log4j2-spring-boot-1.4.1.RELEASE</artifactId>
+                        <artifactId>oss-lib-log4j2-spring-boot-1.5.4.RELEASE</artifactId>
                         <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-swagger-spring-boot-1.4.1.RELEASE</artifactId>
+                        <artifactId>oss-lib-swagger-spring-boot-1.5.4.RELEASE</artifactId>
                         <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-webmvc-spring-boot-1.4.1.RELEASE</artifactId>
+                        <artifactId>oss-lib-webmvc-spring-boot-1.5.4.RELEASE</artifactId>
                         <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-errorhandle-spring-boot-1.4.1.RELEASE</artifactId>
+                        <artifactId>oss-lib-errorhandle-spring-boot-1.5.4.RELEASE</artifactId>
                         <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                     <dependency>
                         <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-security-spring-boot-1.4.1.RELEASE</artifactId>
+                        <artifactId>oss-lib-security-spring-boot-1.5.4.RELEASE</artifactId>
                         <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
                 </dependencies>
@@ -77,7 +77,7 @@
         <dependencies>
             <dependency>
                 <groupId>cn.home1</groupId>
-                <artifactId>oss-common-dependencies-spring-boot-1.4.1.RELEASE</artifactId>
+                <artifactId>oss-common-dependencies-spring-boot-1.5.4.RELEASE</artifactId>
                 <version>${oss-common-dependencies.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
@@ -85,43 +85,43 @@
 
             <dependency>
                 <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-common-spring-boot-1.4.1.RELEASE</artifactId>
+                <artifactId>oss-lib-common-spring-boot-1.5.4.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-test-spring-boot-1.4.1.RELEASE</artifactId>
+                <artifactId>oss-lib-test-spring-boot-1.5.4.RELEASE</artifactId>
                 <version>${oss-lib.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-adminclient-spring-boot-1.4.1.RELEASE</artifactId>
+                <artifactId>oss-lib-adminclient-spring-boot-1.5.4.RELEASE</artifactId>
                 <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-log4j2-spring-boot-1.4.1.RELEASE</artifactId>
+                <artifactId>oss-lib-log4j2-spring-boot-1.5.4.RELEASE</artifactId>
                 <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-swagger-spring-boot-1.4.1.RELEASE</artifactId>
+                <artifactId>oss-lib-swagger-spring-boot-1.5.4.RELEASE</artifactId>
                 <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-webmvc-spring-boot-1.4.1.RELEASE</artifactId>
+                <artifactId>oss-lib-webmvc-spring-boot-1.5.4.RELEASE</artifactId>
                 <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-errorhandle-spring-boot-1.4.1.RELEASE</artifactId>
+                <artifactId>oss-lib-errorhandle-spring-boot-1.5.4.RELEASE</artifactId>
                 <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-security-spring-boot-1.4.1.RELEASE</artifactId>
+                <artifactId>oss-lib-security-spring-boot-1.5.4.RELEASE</artifactId>
                 <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
         </dependencies>
