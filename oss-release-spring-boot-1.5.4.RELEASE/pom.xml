@@ -63,11 +63,6 @@
                         <artifactId>oss-lib-errorhandle-spring-boot-1.5.4.RELEASE</artifactId>
                         <version>1.0.10.OSS-SNAPSHOT</version>
                     </dependency>
-                    <dependency>
-                        <groupId>cn.home1</groupId>
-                        <artifactId>oss-lib-security-spring-boot-1.5.4.RELEASE</artifactId>
-                        <version>1.0.10.OSS-SNAPSHOT</version>
-                    </dependency>
                 </dependencies>
             </plugin>
         </plugins>
@@ -117,11 +112,6 @@
             <dependency>
                 <groupId>cn.home1</groupId>
                 <artifactId>oss-lib-errorhandle-spring-boot-1.5.4.RELEASE</artifactId>
-                <version>1.0.10.OSS-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.home1</groupId>
-                <artifactId>oss-lib-security-spring-boot-1.5.4.RELEASE</artifactId>
                 <version>1.0.10.OSS-SNAPSHOT</version>
             </dependency>
         </dependencies>
